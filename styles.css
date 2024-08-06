@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #2c73d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 15px;
+}
+
+p, label, h1, button, input, span, tr, th {
+    font-family: "Roboto", serif;
+}
+
+#main-box {
+    padding-bottom:30px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: #424656 5px 5px;
+    border-radius: 20px;
+}
+
+#search-box form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 5px;
+    width: 100%;
+}
+
+#search-button {
+    background-color: #2c73d2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+#search-button:hover {
+    cursor: pointer;
+}
+
+#search-button:active {
+    background-color: #0081cf;
+}
+
+
+#search-input {
+    padding: 10px 0 10px 10px;
+    font-size: 1rem;
+    height: 40px;
+    background-color: #e0e9ff;
+    border: 1px solid black;
+}
+
+h1 {
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+label {
+    font-size: 1.1rem;
+    width: 300px;
+    text-align: center;
+}
+
+
+#top-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 93%;
+    background-color: #f6f9ff;
+    padding: 15px;
+}
+
+#size {
+    padding: 3px;
+    height:30px;
+}
+
+#types {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3px;
+    height:30px;
+}
+
+#img-container {
+    height:250px;
+    flex-grow:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width:180px;
+    display: block;
+}
+
+#types span {
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#name-and-id {
+    padding: 3px;
+    height:30px;
+}
+
+#weight, #height {
+    font-size: 0.9rem;
+}
+
+#pokemon-name, #pokemon-id {
+    font-size: 1.1rem
+}
+
+p {
+    display: inline;
+}
+
+tr{
+    border-bottom:5px solid white;
+}
+
+td:nth-last-of-type(1), th:nth-child(even){
+    border-left: 5px solid #f5f6f7;
+}
+
+table {
+    margin-top:3px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: #2c73d2;
+    color: white;
+}
+
+tbody {
+    width:100%;
+}
+
+#stats {
+    width: 93%;
+    margin: 0 auto;
+}
+
+td, th {
+    text-align: center;
+    padding:8px;
+}
+
+.normal {
+    background-color: #b7b7aa;
+}
+
+.fire {
+    background-color: #ff6f52;
+}
+
+.water {
+    background-color: #42a1ff;
+}
+
+.electric {
+    background-color: #fecc33;
+}
+
+.grass {
+    background-color: #78cc55;
+}
+
+.ice {
+    background-color: #66ccfe;
+}
+
+.fighting {
+    background-color: #d3887e;
+}
+
+.poison {
+    background-color: #c68bb7;
+}
+
+.ground {
+    background-color: #dfba52;
+}
+
+.flying {
+    background-color: #8899ff;
+}
+
+.psychic {
+    background-color: #ff66a3;
+}
+
+.bug {
+    background-color: #aabb23;
+}
+
+.rock {
+    background-color: #baaa66;
+}
+
+.ghost {
+    background-color: #9995d0;
+}
+
+.dragon {
+    background-color: #9e93f1;
+}
+
+.dark {
+    background-color: #b59682;
+}
+
+.steel {
+    background-color: #abaabb;
+}
+
+.fairy {
+    background-color: #ed99ed;
+}
+
+@media screen and (max-width: 550px) {
+    #main-box {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #types span {
+        padding: 5px;
+    }
+}
+
